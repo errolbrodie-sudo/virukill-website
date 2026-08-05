@@ -153,7 +153,7 @@ const translations: Record<Language, Record<string, string>> = {
     row_ffs_adv_1_title: "Environmentally Responsible",
     row_ffs_adv_1_desc: "Virukill offers an environmentally responsible, low-odor solution.",
     row_ffs_adv_2_title: "Versatility Across Surfaces",
-    row_ffs_adv_2_desc: "Provides absolute versatility across surfaces, water lines, and airspace—which phenolics cannot do.",
+    row_ffs_adv_2_desc: "Virukill provides absolute versatility across surfaces, water lines, and airspace-which phenolics cannot do.",
     row_ffs_verdict: "Obsolete for modern, integrated farm systems.",
 
     matrix_bottom_note: "Note: This matrix evaluates competitive performance across holistic farm management parameters including equipment longevity, animal safety, continuous sanitation capabilities, and return on investment (ROI).",

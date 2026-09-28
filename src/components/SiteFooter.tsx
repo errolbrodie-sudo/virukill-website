@@ -2,9 +2,11 @@
 
 import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
+import { LEGAL_DISCLAIMER } from "@/data/disclaimer";
 
 export default function SiteFooter() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const d = LEGAL_DISCLAIMER[language] || LEGAL_DISCLAIMER.en;
 
   return (
     <footer className="border-t border-navy-100 bg-navy-50/40 py-16">
@@ -77,16 +79,46 @@ export default function SiteFooter() {
                   support@virukill.co.il
                 </a>
               </li>
+              <li>
+                <Link href="/disclaimer" className="hover:text-bio-600 transition-colors hover:underline font-medium text-amber-800">
+                  Legal & Regulatory Disclaimer
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-16 border-t border-navy-100 pt-8 flex flex-col-reverse lg:flex-row items-start justify-between gap-6">
-          <p className="text-[11px] text-navy-400 shrink-0">
-            &copy; {new Date().getFullYear()} {t("footer_rights")}
-          </p>
-          <div className="max-w-3xl text-left rtl:text-right lg:text-right lg:rtl:text-left text-[10px] leading-relaxed text-navy-500 bg-white border-l-4 rtl:border-l-0 rtl:border-r-4 border-navy-400 p-4 shadow-sm">
-            <strong className="text-navy-900 block mb-1">{t("footer_disclaimer_title")}</strong> {t("footer_disclaimer_body")}
+        {/* Tailored Shared Disclaimer Summary Panel */}
+        <div className="mt-16 border-t border-navy-100 pt-8 space-y-6">
+          <div className="bg-white border-l-4 rtl:border-l-0 rtl:border-r-4 border-amber-500 p-4 rounded-r sm:rounded-none shadow-xs text-[11px] leading-relaxed text-navy-600 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <strong className="text-navy-900 font-display block uppercase tracking-wider text-[10px] text-amber-900">
+                LEGAL NOTICE — M.M. BRODIE TRADING LTD.
+              </strong>
+              <p className="text-navy-600">{d.footerSummary}</p>
+            </div>
+            <Link
+              href="/disclaimer"
+              className="inline-flex shrink-0 items-center gap-1 font-bold text-bio-700 hover:text-bio-800 underline text-xs transition-colors"
+            >
+              <span>{d.footerLinkText}</span>
+              <svg className="w-3.5 h-3.5 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-navy-400">
+            <p>&copy; {new Date().getFullYear()} M.M. Brodie Trading Ltd. All rights reserved.</p>
+            <div className="flex items-center gap-4 text-xs font-medium">
+              <Link href="/disclaimer" className="hover:text-navy-700 transition-colors underline">
+                Legal Disclaimer
+              </Link>
+              <span>•</span>
+              <Link href="/contact" className="hover:text-navy-700 transition-colors underline">
+                Contact & Support
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -22,6 +22,8 @@ const translations = {
     p3Title: "Aerial Fogging (In Presence of Birds)",
     p3Desc: "During high-threat periods (e.g. regional avian flu outbreaks), fog the house space daily with a 1:100 (1%) dilution using electric ULV foggers. Fine droplets strip virus particles from the air, reducing flock-to-flock transmission rates.",
     
+    safetyWarningBtn: "Safety Warning",
+    
     p4Title: "Hatching Egg Sanitization",
     p4Desc: "Egg shells carry bacteria that can contaminate incubators and decrease hatchability. Dip hatching eggs in a warm 1:200 (0.5%) Virukill solution for 30 seconds. Removes debris, sanitizes the shell, and leaves the shell cuticle undamaged.",
     
@@ -37,26 +39,28 @@ const translations = {
     path3Sci: "Infectious Bursal Disease",
   },
   he: {
-    badge: "פתרונות למגזר",
-    title: "פורטל חקלאות ולולים",
-    subtitle: "פרוטוקולים למניעת מחלת ניוקאסל, חיטוי סופי של לולים, חיסול ביופילם בקווי מים וחיטוי ביצי דגירה.",
-    secTitle: "פרוטוקולים מאושרים לאבטחה ביולוגית בלולים",
-    secDesc: "Virukill מהונדס במיוחד עבור לולים מסחריים ופרטיים. הוא נבדק והוכח כמחסל נגיפים בעלי השפעה רבה מבלי לפגוע בלולים, צינורות, או לגרום למצוקה נשימתית לעופות.",
+    badge: "פתרונות מגזריים",
+    title: "פורטל חקלאות ועופות",
+    subtitle: "בקרת מחלת ניוקאסל, חיטוי לולים סופי, הדברת ביופילם בקווי מים ופרוטוקולים לחיטוי ביצי דגירה.",
+    secTitle: "פרוטוקולי אבטחה ביולוגית מאושרים לעופות",
+    secDesc: "Virukill מתוכנן במיוחד עבור חוות עופות מסחריות ופרטיות. הוא נבדק והוכח כמשמיד וירוסים בעלי השלכות חמורות מבלי להזיק ללולים, לצינורות או לגרום למצוקה נשימתית לעופות.",
     
-    p1Title: "חיטוי סופי של מבנים",
-    p1Desc: "מיושם לאחר פינוי הזבל וניקוי מקדים. רסס את כל התקרות, הקירות, הקורות והרצפות במיהול של 1:200 (0.5%). חומר השטח הפעיל של Virukill חודר לסדקים בעץ ובנקבוביות הלבנים, ומבטיח חיסול מוחלט של פתוגנים לפני איכלוס מחדש.",
+    p1Title: "חיטוי לולים סופי",
+    p1Desc: "מיושם לאחר פינוי הרפד וניקוי מוקדם. ריסוס כל התקרות, הקירות, הקורות והרצפות בדילול 1:200 (0.5%). החומר הפעיל חודר לסדקי עץ ולנקבוביות לבנים, ומבטיח השמדה מלאה של פתוגנים לפני אכלוס מחדש.",
     
-    p2Title: "מינון קווי מים לשתייה",
-    p2Desc: "מערכות מים הן הווקטור העיקרי להתרבות פתוגנים. מינון רציף ב-1:1000 (0.1%) במכלי מים או באמצעות מערכות מינון. הוא מפרק ביופילם ומונע מנגיף ניוקאסל וסלמונלה להתפשט בקווי השתייה.",
+    p2Title: "מינון בקווי מי שתייה",
+    p2Desc: "מערכות מים הן הווקטור הראשי להפצת פתוגנים. מינון רציף ב-1:1000 (0.1%) במכלי אגירה או במינון אוטומטי. מפרק ביופילם ומונע התפשטות ניוקאסל וסלמונלה.",
     
     p3Title: "ערפול אווירי (בנוכחות עופות)",
-    p3Desc: "בתקופות של איום גבוה (למשל התפרצויות שפעת העופות באזור), ערפל את חלל הלול מדי יום במיהול של 1:100 (1%) באמצעות מערכות ערפול ULV חשמליות. טיפות עדינות מסירות חלקיקי נגיף מהאוויר, ומפחיתות את שיעור ההדבקה בין להקות.",
+    p3Desc: "בתקופות איום גבוהות (כגון התפרצויות שפעת העופות באזור), ערפל את חלל המבנה מדי יום בדילול 1:100 (1%) באמצעות מערפלי ULV חשמליים. טיפות זעירות מנקות חלקיקי וירוסים מהאוויר, ומפחיתות את שיעור ההדבקה.",
+    
+    safetyWarningBtn: "אזהרת בטיחות",
     
     p4Title: "חיטוי ביצי דגירה",
-    p4Desc: "קליפות ביצים נושאות חיידקים שעלולים לזהם מדגרות ולהפחית את אחוזי הבקיעה. טובלים ביצי דגירה בתמיסת Virukill חמימה של 1:200 (0.5%) למשך 30 שניות. מסיר לכלוך, מחטא את הקליפה ומשאיר את קוטיקולת הביצה ללא פגע.",
+    p4Desc: "קליפות ביצים נושאות חיידקים שעלולים לזהם מדגרות ולהפחית את אחוזי הבוקענות. הטבלת ביצי דגירה בתמיסת Virukill חמה במינון 1:200 (0.5%) למשך 30 שניות.",
     
-    refTitle: "פתוגני יעד קריטיים",
-    refDesc: "Virukill מספק הפחתת לוג מוסמכת ומהירה נגד מחלות ספציפיות לעופות. אם אתה מגן על הלהקה שלך מפני נגיפים אזוריים ספציפיים, חפש במאגר המלא שלנו.",
+    refTitle: "פתוגנים קריטיים לעופות",
+    refDesc: "Virukill מספק הפחתה לוגריתמית מהירה ומאושרת כנגד מחלות עופות ספציפיות.",
     refBtn: "חפש במאגר הפתוגנים",
     
     path1Name: "Newcastle Disease Virus (NDV)",
@@ -113,14 +117,30 @@ export default function AgriculturePage() {
               </p>
             </div>
 
-            <div className="bg-white border border-navy-100 rounded-none p-6 shadow-sm">
-              <h3 className="font-display text-base font-bold text-navy-950 flex items-center gap-2">
-                <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-bio-100 text-[10px] font-bold text-bio-700">3</span>
-                {t.p3Title}
-              </h3>
-              <p className="mt-3 text-xs leading-relaxed text-navy-500">
-                {t.p3Desc}
-              </p>
+            <div className="bg-white border border-navy-100 rounded-none p-6 shadow-sm flex flex-col justify-between">
+              <div>
+                <h3 className="font-display text-base font-bold text-navy-950 flex items-center gap-2">
+                  <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-bio-100 text-[10px] font-bold text-bio-700">3</span>
+                  {t.p3Title}
+                </h3>
+                <p className="mt-3 text-xs leading-relaxed text-navy-500">
+                  {t.p3Desc}
+                </p>
+              </div>
+              <div className="mt-4 pt-3 border-t border-navy-100">
+                <Link
+                  href="/agriculture/safety-warning"
+                  className="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-bold text-red-700 bg-red-50 hover:bg-red-100 border border-red-200 rounded transition-colors shadow-2xs"
+                >
+                  <svg className="w-4 h-4 text-red-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                  </svg>
+                  <span>{t.safetyWarningBtn}</span>
+                  <svg className="w-3.5 h-3.5 text-red-500 ml-auto shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              </div>
             </div>
 
             <div className="bg-white border border-navy-100 rounded-none p-6 shadow-sm">

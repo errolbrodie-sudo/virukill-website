@@ -16,8 +16,8 @@ const translations = {
     p1Title: "Evaporative Wet-Wall Systems",
     p1Desc: "Wet-walls are prone to organic slime, bacterial build-up, and algae growth that restricts airflow. Dose continuously at 1:10000 (0.01%) in water tanks, or apply shock treatments at 1:1000 (0.1%) when cleaning the pads.",
     
-    p2Title: "Post-Harvest Produce Dipping",
-    p2Desc: "To prevent decay on harvested fruit (citrus, cherries), flower bulbs, and root crops. Wash or dip produce in a 1:1000 (0.1%) to 1:500 (0.2%) solution for up to 4 minutes. Removes surface bacteria and mold spores before packing.",
+    p2Title: "Packing House & Facility Sanitation",
+    p2Desc: "Before crops are packed or moved into cold rooms, facility surfaces (including sorting tables, packing house floors, walls, and transit vehicle interiors) are sprayed thoroughly at low pressure with a standard dilution rate of 1:100 (a 1% solution) for general disinfection. The solution cleans and disinfects in a single step, remaining active even in the presence of organic soiling (like dirt and leaf debris) without oxidizing or corroding the structures.",
     
     p3Title: "Airborne Foliage Misting",
     p3Desc: "During high humidity or localized mold outbreaks, fog the greenhouse space daily with a 1:200 (0.5%) dilution using electric ULV cold-fogging systems. Fine droplets neutralize airborne mold and mildew spores.",
